@@ -7,6 +7,8 @@ import Auth from './auth/container/auth.container';
 import ErrorPage from './error-page';
 import './index.css';
 import Profile from './profile/container/profile.container';
+import Contacts from './contacts/container/contacts.container';
+import Conversations from './conversations/container/conversations.container';
 
 const router = createBrowserRouter([
     {
@@ -17,6 +19,16 @@ const router = createBrowserRouter([
     {
         path: '/profile/:idContact',
         element: <Profile />,
+        errorElement: <ErrorPage />,
+    },
+    {
+        path: '/contacts/:idContact',
+        element: <Contacts />,
+        errorElement: <ErrorPage />,
+    },
+    {
+        path: '/conversations',
+        element: <Conversations />,
         errorElement: <ErrorPage />,
     },
 ]);

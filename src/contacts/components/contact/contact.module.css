@@ -1,0 +1,30 @@
+.contact {
+    padding: 1rem 0;
+    margin: 0.5rem 0;
+    max-width: 100%;
+    text-align: center;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 25%);
+}
+
+.contact:hover,
+.contact:active {
+    background-color: #e9ecef;
+    border-color: #e9ecef;
+}
+
+.contact p {
+    margin: 0;
+}
+
+.contactInfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.contactPic {
+    width: 60px;
+    height: 60px;
+}

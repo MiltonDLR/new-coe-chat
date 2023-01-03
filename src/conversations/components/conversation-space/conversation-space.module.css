@@ -1,0 +1,12 @@
+/* Container of Contacts */
+
+.conversation {
+    background-color: #f8f9fa;
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 50rem;
+
+    max-width: 95%;
+    /*border-radius: 12px;*/
+    box-shadow: 0 1px 8px rgb(0 0 0 / 25%);
+}
